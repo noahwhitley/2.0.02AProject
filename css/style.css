@@ -1,0 +1,41 @@
+.container {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.banner {
+    width: auto;
+    background-color: rgb(241,165,54);
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+}
+
+.logo img {
+    display: flex;
+    max-width: 55%;
+    max-height: auto;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.hyperlinks ul > li {
+    display: inline-block;
+    width: auto;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hyperlinks {
+    margin-left: 45%;
+    margin-top: 0%;
+    font-size: 18px;
+    font-weight: 600;
+}
