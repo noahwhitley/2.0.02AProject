@@ -26,6 +26,7 @@
     display: inline-block;
     width: auto;
     margin: 20px;
+    text-align: rightss;
 }
 
 a {
@@ -34,8 +35,31 @@ a {
 }
 
 .hyperlinks {
-    margin-left: 45%;
+    
     margin-top: 0%;
     font-size: 18px;
     font-weight: 600;
+}
+
+.hero {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 5px 0px;
+}
+
+.hero img {
+    width: 100%;
+    object-fit: cover;
+    height: 650px;
+}
+
+.quote {
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 25%;
+    right: 38%;
 }
