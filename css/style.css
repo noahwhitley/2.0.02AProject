@@ -127,10 +127,11 @@ span {
     display: inline-block;
     position: relative;
     margin: 3% 5%;
+    margin-bottom: 0;
 }
 
 .weeklyExamples img {
-    width: 350px;
+    max-width: 250px;
     height: 300px;
     object-fit: cover;
 }
@@ -140,4 +141,57 @@ span {
     text-align: center;
     background-color: white;
     padding: 5%;
+}
+
+.whereEat{
+    margin: 0 10%;
+}
+
+.whereEat li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 3% 5%;
+    margin-bottom: 0;
+}
+
+.whereEat img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border:8px solid #dadfea;
+}
+
+.whereCaption{
+    display: block;
+    text-align: center;
+    padding: 5%;
+}
+
+.copyright span{
+    margin: 0 10%;
+}
+
+.footnote {
+    width: auto;
+    background-color: rgb(241,165,54);
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.bannerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footHyperlinks li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footHyperlinks li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 25px;
 }
