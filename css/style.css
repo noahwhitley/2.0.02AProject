@@ -65,7 +65,6 @@
     font-size: 30px;
     padding: 10px;
     font-weight: bolder;
-
 }
 
 .intro {
@@ -168,7 +167,7 @@ span {
     padding: 5%;
 }
 
-.copyright span{
+.copyright{
     margin: 0 10%;
 }
 
@@ -185,13 +184,85 @@ span {
     justify-content: space-between;
 }
 
-.footHyperlinks li {
-    list-style: none;
-    display: inline-block;
+.summary{
+    background-color: #dadfea;
+    width: auto;
+    height: 150px;
 }
 
-.footHyperlinks li a {
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 25px;
+.summary .info {
+    margin: 0 10%;
+}
+
+.info li {
+    font-size: 20px;
+    font-weight: 800;
+    list-style: none;
+    display: inline;
+    position: relative;
+    margin: 3% 5%;
+    margin-bottom: 0;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight:900; 
+}
+
+.title span {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.review {
+    padding-left: 18px;
+}
+
+.saveAndPrint {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.save {
+    color: white;
+    background-color: #a63223;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.print {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #dadfea;
+    max-width: 60%;
+    margin: 3% auto;
+    text-align: center;
+    font-weight: bolder;
+    color: #6F6F6F;
+}
+
+.ingredients h1 {
+    justify-content: left;
+}
+
+.ingredients {
+    font-family: 'Lato' sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
 }
