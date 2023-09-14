@@ -254,6 +254,10 @@ span {
     color: #6F6F6F;
 }
 
+.information {
+    display: flex;
+}
+
 .ingredients h1 {
     justify-content: left;
 }
@@ -265,4 +269,10 @@ span {
     width: 50%;
     height: auto;
     margin-left: 10%;
+}
+
+.directions {
+    margin: 25px 0;
+    width: 50%;
+    font-size: 24px;
 }
